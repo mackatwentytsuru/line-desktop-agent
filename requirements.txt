@@ -1,0 +1,8 @@
+# このリポジトリの .venv だけに入れる(PC 全体には入れない)
+uiautomation==2.0.29
+comtypes==1.5.0
+Pillow==12.3.0
+pytest==9.2.0
+# MCP の公式 SDK。2.x は FastMCP が MCPServer に変わっているので 1.x に固定
+mcp==1.30.0
+websocket-client==1.9.2

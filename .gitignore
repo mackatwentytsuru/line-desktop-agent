@@ -1,0 +1,10 @@
+# トークの中身は git に入れない
+data/
+*.db
+*.sqlite
+*.log
+.venv/
+__pycache__/
+
+# 自分の環境用の MCP 設定(.mcp.json.example をコピーして使う)
+.mcp.json

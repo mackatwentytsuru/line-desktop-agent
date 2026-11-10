@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__line__line_list_chats",
+      "mcp__line__line_read_chat",
+      "mcp__line__line_recent",
+      "mcp__line__line_search",
+      "mcp__line__line_status",
+      "mcp__line__line_draft_send"
+    ],
+    "ask": [
+      "mcp__line__line_send",
+      "mcp__line__line_open_chat",
+      "mcp__line__line_history",
+      "mcp__line__line_save_attachment"
+    ]
+  },
+  "enableAllProjectMcpServers": false,
+  "enabledMcpjsonServers": [
+    "line"
+  ]
+}

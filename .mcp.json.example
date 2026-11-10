@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "line": {
+      "command": ".venv/Scripts/python.exe",
+      "args": ["-m", "line_agent.mcp_server"],
+      "env": { "PYTHONPATH": "src" }
+    }
+  }
+}
